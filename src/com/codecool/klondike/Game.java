@@ -163,7 +163,7 @@ public class Game extends Pane {
         getChildren().add(discardPile);
 
         for (int i = 0; i < 4; i++) {
-            Pile foundationPile = new Pile(Pile.PileType.FOUNDATION, "Foundadtion " + i, FOUNDATION_GAP);
+            Pile foundationPile = new Pile(Pile.PileType.FOUNDATION, "Foundation " + i, FOUNDATION_GAP);
             foundationPile.setBlurredBackground();
             foundationPile.setLayoutX(610 + i * 180);
             foundationPile.setLayoutY(20);
